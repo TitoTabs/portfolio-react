@@ -13,8 +13,40 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "md-booking-admin",
+    title: "Workise Auto Solutions - MD Booking Admin",
+    description:
+      "An internal admin dashboard for managing online automotive service bookings. Includes service configuration, calendar settings, company onboarding, theme customization, and integrations with Mechanic Desk.",
+    tech: [
+      "Vue 3",
+      "Pinia",
+      "Vite",
+      "Laravel",
+      "MySQL",
+      "Tailwind",
+      "Typescript",
+    ],
+    role: "Fullstack Developer",
+    year: "2025",
+    highlight:
+      "Developed the Vue 3 admin dashboard and Laravel APIs for managing booking configurations, services, onboarding steps, and third-party integrations.",
+  },
+
+  {
+    slug: "md-booking-calendar",
+    title: "Workise Auto Solutions - MD Booking Calendar",
+    description:
+      "A public-facing booking calendar that allows customers to schedule automotive services online. Includes service selection, real-time availability, booking confirmation, and responsive UI for mobile and desktop.",
+    tech: ["Vue 3", "Vite", "Laravel", "MySQL", "Tailwind", "Typescript"],
+    role: "Frontend Developer",
+    year: "2025",
+    highlight:
+      "Built a responsive booking calendar with service selection, time-slot availability logic, and a streamlined booking flow integrated with the backend scheduling API.",
+  },
+
+  {
     slug: "tools-library-system",
-    title: "Tools Library System",
+    title: "Workise Auto Solutions - Tools Library System",
     description:
       "A full-stack internal system for tool borrowing, delivery scheduling, approvals, and returns. Includes dynamic tables, file uploads, email notifications, and real-time status tracking.",
     tech: [
@@ -34,7 +66,7 @@ export const projects: Project[] = [
 
   {
     slug: "widget-automation-extension",
-    title: "Widget App – Automation Chrome Extension",
+    title: "Workise Auto Solutions – Automation Chrome Extension",
     description:
       "A browser automation extension that integrates with legacy Angular systems. Injects scripts to automate data entry, sync with backend, and reduce manual workload.",
     tech: ["Vue 3", "Vuetify", "JavaScript", "Chrome Extension", "Laravel"],
@@ -46,7 +78,7 @@ export const projects: Project[] = [
 
   {
     slug: "booking-event-app",
-    title: "Booking Event App",
+    title: "Workise Auto Solutions - Booking Event App",
     description:
       "A complete event booking and ticketing system with membership pricing, ticket allocation, and email confirmations.",
     tech: [
@@ -61,6 +93,7 @@ export const projects: Project[] = [
     ],
     role: "Fullstack Developer",
     year: "2025",
+    link: "https://eventapp.aasdneastcoast.com.au/events",
     highlight:
       "Implemented booking flows, ticket management, and automated email notifications with clean UI patterns.",
   },

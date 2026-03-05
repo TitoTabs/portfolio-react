@@ -12,7 +12,14 @@ export default function SkillsSection() {
     },
     {
       title: "State & Data",
-      skills: ["Zustand", "Pinia", "REST APIs", "Form handling", "Chart.js"],
+      skills: [
+        "Zustand",
+        "Pinia",
+        "REST APIs",
+        "Form handling",
+        "Chart.js",
+        "n8n Automation",
+      ],
     },
     {
       title: "Tooling & Others",

@@ -114,7 +114,7 @@ export default function AboutPage() {
           Skills &amp; Tools
         </h2>
         <motion.div
-          className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm text-slate-700 dark:text-slate-300"
+          className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm text-slate-700 dark:text-slate-300"
           variants={container}
         >
           <motion.ul className="space-y-1" variants={item}>
@@ -137,6 +137,12 @@ export default function AboutPage() {
             <li>• Git / Version Control</li>
             <li>• Swagger / Postman</li>
             <li>• Dashboard &amp; admin UI</li>
+          </motion.ul>
+          <motion.ul className="space-y-1" variants={item}>
+            <li>• N8n Automation</li>
+            <li>• Server Setup</li>
+            <li>• OOP / SOLID Principle</li>
+            <li>• Typescript</li>
           </motion.ul>
         </motion.div>
       </motion.section>
@@ -179,6 +185,23 @@ export default function AboutPage() {
           className="mt-6 grid gap-4 md:grid-cols-2 text-xs md:text-sm"
           variants={container}
         >
+          <motion.div
+            className="p-4 rounded-xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900/40 dark:shadow-none"
+            variants={card}
+          >
+            <p className="text-sky-700 dark:text-sky-400 font-semibold">
+              Workwise Auto Solutions · Fullstack Developer
+            </p>
+            <p className="text-slate-500 dark:text-slate-400 text-xs">
+              2025 – Current
+            </p>
+            <p className="text-slate-700 dark:text-slate-300 mt-1">
+              Built a tool library system for managing inventory, scheduling,
+              and notifications using Vue 3, Pinia, and Laravel. Also developed
+              a Chrome extension for browser automation and data injection.
+            </p>
+          </motion.div>
+
           <motion.div
             className="p-4 rounded-xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900/40 dark:shadow-none"
             variants={card}

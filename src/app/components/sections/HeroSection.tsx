@@ -33,16 +33,22 @@ export default function HeroSection() {
         <div className="mx-auto max-w-xs rounded-2xl border border-slate-800 bg-gradient-to-b from-slate-900 to-slate-950 p-5 shadow-xl">
           <p className="mb-3 text-xs text-slate-400">Currently working with</p>
           <div className="flex flex-wrap gap-2 text-[11px]">
-            {["Next.js", "React", "TypeScript", "Tailwind", "Zustand"].map(
-              (tag) => (
-                <span
-                  key={tag}
-                  className="rounded-full border border-slate-700 bg-slate-900 px-2.5 py-1 text-slate-200"
-                >
-                  {tag}
-                </span>
-              )
-            )}
+            {[
+              "Next.js",
+              "React",
+              "TypeScript",
+              "Tailwind",
+              "Zustand",
+              "Vue 3",
+              "Pinia",
+            ].map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full border border-slate-700 bg-slate-900 px-2.5 py-1 text-slate-200"
+              >
+                {tag}
+              </span>
+            ))}
           </div>
         </div>
       </div>

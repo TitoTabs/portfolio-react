@@ -4,7 +4,7 @@ import Link from "next/link";
 import { projects } from "@/lib/projects";
 import { useUIStore } from "@/store/uiStore";
 
-const techFilters = ["all", "Next.js", "React", "TypeScript"];
+const techFilters = ["all", "Vue 3", "Next.js", "React", "TypeScript"];
 
 export default function ProjectsSection() {
   const { activeProjectFilter, setProjectFilter } = useUIStore();
@@ -12,7 +12,7 @@ export default function ProjectsSection() {
   const filtered = projects.filter((project) =>
     activeProjectFilter === "all"
       ? true
-      : project.tech.includes(activeProjectFilter)
+      : project.tech.includes(activeProjectFilter),
   );
 
   return (
